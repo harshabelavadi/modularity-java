@@ -1,14 +1,9 @@
-package colorcoder;
+package com.philips.colorcoder;
 
-import colorcoder.Constants.MajorColor;
-import colorcoder.Constants.MinorColor;
-import colorcoder.ColorLength.MajorColorNames;
-import colorcoder.ColorLength.MinorColorNames;
-
-static class ColorPair {
+class ColorPair {
     private MajorColor majorColor;
     private MinorColor minorColor;
-    
+   
     public ColorPair(MajorColor major, MinorColor minor)
     {
         majorColor = major;
@@ -21,9 +16,9 @@ static class ColorPair {
         return minorColor;
     }
     String ToString() {
-        String colorPairStr = MajorColorNames[majorColor.getIndex()];
+        String colorPairStr = ColorNames.MajorColorNames[majorColor.getIndex()];
         colorPairStr += " ";
-        colorPairStr += MinorColorNames[minorColor.getIndex()];
+        colorPairStr += ColorNames.MinorColorNames[minorColor.getIndex()];
         return colorPairStr;
     }
 };
