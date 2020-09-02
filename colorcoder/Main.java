@@ -1,4 +1,4 @@
-package com.philips.colorcoder;
+package colorcoder;
 
 public class Main {
 

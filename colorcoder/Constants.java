@@ -1,4 +1,4 @@
-package com.philips.colorcoder;
+package colorcoder;
 
 enum MajorColor implements IColor{
 	WHITE(0),

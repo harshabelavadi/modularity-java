@@ -1,4 +1,4 @@
-package com.philips.colorcoder;
+package colorcoder;
 
 class ColorNames
 {
