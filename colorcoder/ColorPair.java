@@ -2,6 +2,8 @@ package colorcoder;
 
 import colorcoder.Constants.MajorColor;
 import colorcoder.Constants.MinorColor;
+import colorcoder.Constants.MajorColorNames;
+import colorcoder.Constants.MinorColorNames;
 
 static class ColorPair {
     private MajorColor majorColor;
